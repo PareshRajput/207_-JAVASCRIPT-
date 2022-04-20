@@ -1,0 +1,23 @@
+
+<html>
+<head>
+   <title> While loop </title>
+</head>
+<body>
+   <p id="demo"></p>
+
+   <script>
+      var fruits = ["apples", "bananas", "oranges"];
+      var len = fruits.length;
+      var i = 0;
+      var html = "";
+      
+      while(i < len) {
+         html += "<p> I like " + fruits[i] + ". </p>";
+         i++;
+      }
+      
+      document.getElementById("demo").innerHTML = html;
+   </script>
+</body>
+</html>
